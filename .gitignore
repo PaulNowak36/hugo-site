@@ -1,7 +1,6 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
+# ----------------------------------------
+# Go build artifacts
+# ----------------------------------------
 *.exe
 *.exe~
 *.dll
@@ -11,15 +10,41 @@
 # Test binary, built with `go test -c`
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+# Output of the go coverage tool
 *.out
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
+# Go workspace files
 go.work
 go.work.sum
 
-# env file
+# Dependency directories (uncomment if needed)
+# vendor/
+
+# Environment variables
 .env
+
+
+# ----------------------------------------
+# Hugo build artifacts
+# ----------------------------------------
+
+# Hugo output directory (NE DOIT PAS ÊTRE VERSIONNÉ)
+public/
+
+# Hugo cache
+resources/_gen/
+hugo_stats.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node (si tu utilises un thème avec npm)
+node_modules/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
