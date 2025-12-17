@@ -29,7 +29,7 @@ go.work.sum
 # ----------------------------------------
 
 # Hugo output directory (NE DOIT PAS ÊTRE VERSIONNÉ)
-public/
+# public/
 
 # Hugo cache
 resources/_gen/
