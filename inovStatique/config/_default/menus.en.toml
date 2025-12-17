@@ -57,7 +57,7 @@
 
 [[footer]]
   name = "Contacter"
-  pageRef = "contacter"
+  pageRef = "contact"
   weight = 20
 
 

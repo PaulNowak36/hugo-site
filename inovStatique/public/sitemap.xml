@@ -13,12 +13,22 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/equipe/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/projets/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

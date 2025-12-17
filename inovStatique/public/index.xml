@@ -30,11 +30,31 @@
     </item>
     
     <item>
+      <title>Contact &amp; Partnerships</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/contact/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Équipe</title>
       <link>http://localhost:1313/equipe/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/equipe/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Projects &amp; Case Studies</title>
+      <link>http://localhost:1313/projets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/projets/</guid>
       <description></description>
       
     </item>

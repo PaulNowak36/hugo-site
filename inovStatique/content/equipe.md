@@ -9,8 +9,6 @@ hero:
   disableImageFilter: true
 ---
 
-# Team / Équipe
-
 ## Fondateurs
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
