@@ -2,6 +2,7 @@
 title: "Groupe INOV"
 description: "Médecine nucléaire – Innovation, expertise et engagement patient."
 layout: page
+author: false
 ---
 
 {{< figure src="/inov_logo-bg-free.png" alt="INOV Groupe" caption="Un réseau dédié à la médecine nucléaire" >}}
@@ -11,6 +12,8 @@ Le Groupe **INOV** développe et opère des centres de médecine nucléaire mode
 {{< /lead >}}
 
 ---
+
+<div class="wide-section">
 
 ## Mission, vision et zones d’intervention
 
@@ -33,8 +36,8 @@ Devenir un acteur de référence en Europe dans l’imagerie médicale avancée.
 ## Domaines d’expertise
 
 {{< gallery >}}
-  "/inov_logo-bg-free.png"
-  "/inov_logo-bg-free.png"
+    <img src="/centre_saint-doulchard.jpg" class="grid-w35" />
+    <img src="/inov_logo-bg-free.png" class="grid-w35" />
 {{< /gallery >}}
 
 ### Imagerie TEP / TEP-CT
@@ -80,15 +83,11 @@ Explorations fonctionnelles, scintigraphies et examens spécialisés.
 
 ## Engagement patient
 
-{{< icon "heart" >}}
+{{< icon "heart">}}
 
 Nous plaçons l’humain au cœur de notre démarche : qualité des examens, réduction des délais, confort des patients et transparence des résultats.
 
----
-
-## Vidéo de présentation
-
-{{< youtubeLite id="MX4yy1dTVYg" label="Présentation INOV" >}}
+</div>
 
 ---
 

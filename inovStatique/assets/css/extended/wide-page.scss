@@ -1,0 +1,21 @@
+/* Augmente la largeur du contenu */
+.container,
+.prose {
+  max-width: 1200px !important; /* largeur plus large */
+}
+
+/* Agrandit légèrement le texte */
+.prose p,
+.prose li {
+  font-size: 1.15rem; /* taille du texte */
+  line-height: 1.7;
+}
+
+/* Agrandit les titres */
+.prose h2 {
+  font-size: 2rem;
+}
+
+.prose h3 {
+  font-size: 1.5rem;
+}
