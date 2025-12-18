@@ -1,0 +1,3 @@
+[submodule "inovStatique/themes/blowfish"]
+	path = inovStatique/themes/blowfish
+	url = https://github.com/nunocoracao/blowfish.git
