@@ -1,0 +1,11 @@
+[build]
+base = "inov-statique"
+publish = "inov-statique/public"
+command = "hugo --gc --minify --baseURL ${URL}"
+
+[build.environment]
+HUGO_VERSION = "0.152.2"
+GO_VERSION = "1.25.5"
+DART_SASS_VERSION = "1.96.0"
+NODE_VERSION = "24.12.0"
+TZ = "Europe/Oslo"
