@@ -33,12 +33,14 @@ Devenir un acteur de référence en Europe dans l’imagerie médicale avancée.
 
 ---
 
-## Domaines d’expertise
+## Domaines d’expertise>
 
 {{< gallery >}}
-    <img src="/centre_saint-doulchard.jpg" class="grid-w35" />
-    <img src="/inov_logo-bg-free.png" class="grid-w35" />
+    <img src="/scanner.jpg" class="grid-w33" />
+    <img src="/scan-alzheimer.png" class="grid-w33" />
+    <img src="/scanner2.jpg" class="grid-w33" />
 {{< /gallery >}}
+
 
 ### Imagerie TEP / TEP-CT
 Diagnostic de haute précision pour l’oncologie, la cardiologie et la neurologie.
@@ -52,12 +54,10 @@ Explorations fonctionnelles, scintigraphies et examens spécialisés.
 
 {{< badge >}}Données indicatives{{< /badge >}}
 
-- **12 sites** dans 3 pays  
-- **+120 000 patients** accompagnés chaque année  
-- **45 médecins nucléaires**  
-- **180 professionnels de santé**  
-- **18 caméras TEP / TEP-CT**  
-- **25 gamma-caméras**  
+- **3 sites** à Saint-Doulchard, Bourges et Nevers dans la Région Centre-Val-De-Loire 
+- **5 professionnels de santé** dont **3 radiologues** et **2 cardiologues**.  
+- **2 scanners TEP / 1 gamma Siemens / 1 gamma hybride / 1 gamma SPECTRUM**  
+- **Capital de  93 800,00 €**  
 
 ---
 
@@ -65,16 +65,22 @@ Explorations fonctionnelles, scintigraphies et examens spécialisés.
 
 {{< timeline >}}
 
-  {{< timelineItem date="2010" title="Création du Groupe INOV" >}}
-  Lancement du premier centre dédié à la médecine nucléaire.
+  {{< timelineItem header="1998" subheader="Création du cabinet INOV de Saint-Doulchard" >}}
+  Accueil au sein de la clinique Guillaume de Varye située au 210, route de Vouzeron, à Saint-Doulchard.
+  {{< gallery >}}
+  <img src="/centre_saint-doulchard.jpg" class="grid-w40" />
+  {{< /gallery >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem date="2015" title="Déploiement national" >}}
-  Ouverture de nouveaux centres et partenariats hospitaliers.
+  {{< timelineItem header="Février 2012" subheader="Inauguration du PET SCAN." >}}
+  Cette technique d’imagerie médicale anatomique et fonctionnelle permet d’évaluer le métabolisme cellulaire, ainsi que détecter et suivre l’évolution d’une maladie cancéreuse.
+  {{< gallery >}}
+  <img src="/pet-scan.webp" class="grid-w40" />
+  {{< /gallery >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem date="2022" title="Expansion internationale" >}}
-  Développement de projets en Europe et collaborations scientifiques.
+  {{< timelineItem header="2016" subheader="Création de SELARL INOV." >}}
+  Restructuration juridique et organisationnelle du groupe.
   {{< /timelineItem >}}
 
 {{< /timeline >}}
@@ -90,8 +96,6 @@ Nous plaçons l’humain au cœur de notre démarche : qualité des examens, ré
 </div>
 
 ---
-
-## Contact
 
 {{< button href="/contact" >}}
 Nous contacter
