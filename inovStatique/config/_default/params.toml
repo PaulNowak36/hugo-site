@@ -9,7 +9,7 @@ colorScheme = "sky"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 
-customCSS = ["css/extended/wide-page.scss"]
+customCSS = ["/extended/wide-page.scss"]
 
 enableA11y = false
 enableSearch = true
@@ -59,6 +59,10 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   layoutBackgroundBlur = false
   disableHeroImageFilter = true
 
+[page]
+  showHero = true
+  heroStyle = "background"
+
 [article]
   showDate = false
   showViews = false
@@ -78,7 +82,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = false
-  showPagination = true
+  showPagination = false
   invertPagination = false
   showReadingTime = false
   showTableOfContents = false

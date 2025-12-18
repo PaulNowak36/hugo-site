@@ -1,11 +1,15 @@
 ---
 title: "Groupe INOV"
 description: "Médecine nucléaire – Innovation, expertise et engagement patient."
-layout: page
+layout: "page"
+showTableOfContents: false
+fullWidth: true
 author: false
 ---
 
-{{< figure src="/inov_logo-bg-free.png" alt="INOV Groupe" caption="Un réseau dédié à la médecine nucléaire" >}}
+<div class="w-full flex justify-center">
+  {{< figure src="/inov_logo-bg-free.png" alt="INOV Groupe" caption="Un réseau dédié à la médecine nucléaire" >}}
+</div>
 
 {{< lead >}}
 Le Groupe **INOV** développe et opère des centres de médecine nucléaire modernes, centrés sur l’innovation, la qualité diagnostique et l’accompagnement des patients.
@@ -13,7 +17,8 @@ Le Groupe **INOV** développe et opère des centres de médecine nucléaire mode
 
 ---
 
-<div class="wide-section">
+<div class="wide-section text-lg leading-relaxed">
+
 
 ## Mission, vision et zones d’intervention
 
@@ -33,7 +38,7 @@ Devenir un acteur de référence en Europe dans l’imagerie médicale avancée.
 
 ---
 
-## Domaines d’expertise>
+## Domaines d’expertise
 
 {{< gallery >}}
     <img src="/scanner.jpg" class="grid-w33" />
@@ -93,10 +98,12 @@ Explorations fonctionnelles, scintigraphies et examens spécialisés.
 
 Nous plaçons l’humain au cœur de notre démarche : qualité des examens, réduction des délais, confort des patients et transparence des résultats.
 
-</div>
+
 
 ---
 
 {{< button href="/contact" >}}
 Nous contacter
 {{< /button >}}
+
+</div>

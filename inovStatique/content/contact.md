@@ -1,5 +1,5 @@
 ---
-title: "Contact & Partnerships"
+title: "Contact & Partenariats"
 layout: page
 description: "Contact professionnel, partenariats et informations légales."
 
@@ -13,8 +13,8 @@ hero:
 
 Pour toute demande professionnelle, partenariat ou projet international, vous pouvez nous joindre via :
 
-**Téléphone :** +33 1 23 45 67 89  
-**Email :** contact@inov-medical.com
+**Téléphone :** +33 2 48 23 99 60  
+**Email :** inov.rdv@gmail.com
 
 ---
 
@@ -53,11 +53,13 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
 Société spécialisée en développement et gestion de centres d’imagerie médicale.  
 
 **Siège social :**  
-Adresse complète ici  
+210 route de Vouzeron
+<br/>
+18230 Saint-Doulchard
 France  
 
 **Responsable de la publication :**  
-Nom du représentant légal  
+Paul NOWAK
 
 **Hébergement :**  
 Nom de l’hébergeur  
