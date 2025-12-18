@@ -7,6 +7,16 @@ fullWidth: true
 author: false
 ---
 
+<style>
+  .homepage-prose {
+    max-width: 1900px;
+    font-size: 1.125rem;
+    line-height: 1.75;
+  }
+</style>
+
+
+
 <div class="w-full flex justify-center">
   {{< figure src="/inov_logo-bg-free.png" alt="INOV Groupe" caption="Un réseau dédié à la médecine nucléaire" >}}
 </div>
@@ -17,7 +27,7 @@ Le Groupe **INOV** développe et opère des centres de médecine nucléaire mode
 
 ---
 
-<div class="wide-section text-lg leading-relaxed">
+<div class="homepage-prose"
 
 
 ## Mission, vision et zones d’intervention

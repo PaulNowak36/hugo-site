@@ -3,9 +3,6 @@ title: "Équipe"
 layout: page
 description: "Les équipes fondatrices, médicales et opérationnelles du Groupe INOV."
 
-showHero: true
-heroStyle: background
-
 hero:
   image: "/centre_saint-doulchard.jpg"
   style: "background"
