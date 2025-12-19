@@ -24,6 +24,11 @@ enableEmoji = true
 [imaging]
   anchor = 'Center'
 
+# --- Ajout du cache images ---
+[caches]
+  [caches.images]
+    dir = ":cacheDir/images"
+
 [taxonomies]
   tag = "tags"
   category = "categories"
