@@ -18,21 +18,27 @@ hero:
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Centre de Saint-Doulchard" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Centre de Saint-Doulchard" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Saint-Doulchard</strong><br>
   Centre de médecine nucléaire – opérationnel  
   <p>Développement, optimisation des flux et accompagnement opérationnel.</p>
 </div>
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Centre de Bourges" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Centre de Bourges" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Bourges</strong><br>
   Centre d’imagerie – opérationnel  
   <p>Modernisation, structuration des équipes et amélioration continue.</p>
 </div>
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Centre de Nevers" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Centre de Nevers" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Nevers</strong><br>
   France  
   <p>Accompagnement stratégique et support opérationnel selon les besoins.</p>
@@ -48,19 +54,25 @@ hero:
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; margin-bottom: 2rem;">
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Projet 1 – Moyen-Orient</strong><br>
   <p>Développement d’un centre d’imagerie avancée, en partenariat avec des acteurs institutionnels.</p>
 </div>
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient 2" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient 2" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Projet 2 – Moyen-Orient</strong><br>
   <p>Accompagnement stratégique pour la mise en place d’un réseau de centres spécialisés.</p>
 </div>
 
 <div style="width: 260px; text-align: center;">
-  <img src="/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient 3" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< gallery >}}
+  <img src="/hugo-site/centre_saint-doulchard.jpg" alt="Projet Moyen-Orient 3" style="border-radius: 8px; width: 100%; height: auto;">
+  {{< /gallery >}}
   <strong>Projet 3 – Moyen-Orient</strong><br>
   <p>Support opérationnel et formation des équipes locales.</p>
 </div>
