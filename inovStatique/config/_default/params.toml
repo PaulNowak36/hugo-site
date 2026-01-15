@@ -5,9 +5,10 @@
 # Refer to the theme docs for more details about each of these parameters.
 # https://blowfish.page/docs/configuration/#theme-parameters
 
-colorScheme = "sky"
+colorScheme = "blowfish"
 defaultAppearance = "light"
-autoSwitchAppearance = true
+autoSwitchAppearance = false
+disableThemeToggle = true
 
 customCSS = ["/extended/wide-page.scss"]
 
@@ -48,11 +49,11 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showMenu = true
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]
-  layout = "background"
+  layout = "page"
   homepageImage = "/centre_saint-doulchard.jpg"   # image de fond
   logo = "inov_logo-bg-free.png"                 # logo centré
   showRecent = false
