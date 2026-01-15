@@ -3,11 +3,6 @@ title: "Services"
 layout: page
 description: "Expertise en médecine nucléaire, développement de centres et accompagnement opérationnel."
 
-hero:
-  title: "Test Hero"
-  image: "centre_saint-doulchard.jpg"
-  style: "background"
-  disableImageFilter: true
 ---
 
 {{< lead >}}

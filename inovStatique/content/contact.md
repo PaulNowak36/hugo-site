@@ -3,10 +3,6 @@ title: "Contact & Partenariats"
 layout: page
 description: "Contact professionnel, partenariats et informations légales."
 
-hero:
-  image: "centre_saint-doulchard.jpg"
-  style: "background"
-  disableImageFilter: true
 ---
 
 ## Nous contacter

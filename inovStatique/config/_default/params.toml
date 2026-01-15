@@ -10,7 +10,7 @@ defaultAppearance = "light"
 autoSwitchAppearance = false
 disableThemeToggle = true
 
-customCSS = ["/extended/wide-page.scss"]
+customCSS = ["css/custom.css"]
 
 enableA11y = false
 enableSearch = true
@@ -54,14 +54,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [homepage]
   layout = "page"
-  homepageImage = "/centre_saint-doulchard.jpg"   # image de fond
+  homepageImage = ""   # image de fond
   logo = "inov_logo-bg-free.png"                 # logo centré
   showRecent = false
   layoutBackgroundBlur = false
   disableHeroImageFilter = true
 
 [page]
-  showHero = true
+  showHero = false
   heroStyle = "background"
 
 [article]
@@ -72,7 +72,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showDateUpdated = false
   showAuthor = false
   # showAuthorBottom = false
-  showHero = true
+  showHero = false
   heroStyle = "background"
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background

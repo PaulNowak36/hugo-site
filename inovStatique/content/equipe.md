@@ -3,10 +3,6 @@ title: "Équipe"
 layout: page
 description: "Les équipes fondatrices, médicales et opérationnelles du Groupe INOV."
 
-hero:
-  image: "/centre_saint-doulchard.jpg"
-  style: "background"
-  disableImageFilter: true
 ---
 
 ## Fondateurs

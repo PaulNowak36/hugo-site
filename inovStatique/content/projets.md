@@ -3,10 +3,6 @@ title: "Projets & Etudes de cas"
 layout: page
 description: "Centres opérationnels en France et projets en développement au Moyen-Orient."
 
-hero:
-  image: "centre_saint-doulchard.jpg"
-  style: "background"
-  disableImageFilter: true
 ---
 
 Études de cas, centres opérationnels et projets en développement.

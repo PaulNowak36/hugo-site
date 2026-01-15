@@ -1,0 +1,21 @@
+/* Élargir les zones de contenu Blowfish */
+.prose,
+.container,
+.max-w-prose,
+.max-w-3xl {
+  max-width: 1200px !important;
+}
+
+/* Centrer proprement */
+.prose,
+.container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Ajouter un padding horizontal pour éviter que le texte touche les bords */
+.prose,
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
