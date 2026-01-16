@@ -38,6 +38,7 @@
 [[main]]
   name = "Contacter"
   pageRef = "contact"
+  identifier = "contact"
   weight = 50
 
 

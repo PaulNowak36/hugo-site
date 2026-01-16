@@ -1,8 +1,10 @@
 ---
-title: "Contact & Partenariats"
-layout: page
-description: "Contact professionnel, partenariats et informations légales."
-
+menu:
+  main:
+    parent: "contact"
+    name: "Nous contacter"
+    weight: 1
+  
 ---
 
 ## Nous contacter
@@ -12,9 +14,7 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
 **Téléphone :** +33 2 48 23 99 60  
 **Email :** inov.rdv@gmail.com
 
----
-
-## Formulaire de contact
+### Formulaire de contact
 
 <form method="POST" action="https://formspree.io/f/your-form-id" style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px;">
 
@@ -40,30 +40,5 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
 </form>
 
 > *Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.*
-
----
-
-## Informations légales minimales
-
-**INOV Medical Group**  
-Société spécialisée en développement et gestion de centres d’imagerie médicale.  
-
-**Siège social :**  
-210 route de Vouzeron
-<br/>
-18230 Saint-Doulchard
-France  
-
-**Responsable de la publication :**  
-Paul NOWAK
-
-**Hébergement :**  
-Nom de l’hébergeur  
-Adresse  
-Téléphone  
-
-**Protection des données :**  
-Les informations transmises via ce formulaire sont utilisées exclusivement pour répondre à votre demande.  
-Aucune donnée n’est revendue ou transmise à des tiers.
 
 ---
