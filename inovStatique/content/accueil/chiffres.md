@@ -1,9 +1,12 @@
 ---
-title: "Chiffres clés du Groupe INOV"
 menu:
   main:
-    parent: "Accueil"
+    parent: "accueil"
+    name: "Chiffres clés"
     weight: 1
+
+
+  
 ---
 
 

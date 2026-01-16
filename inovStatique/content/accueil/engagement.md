@@ -1,8 +1,8 @@
 ---
-title: "Engagement patient"
 menu:
   main:
-    parent: "Accueil"
+    parent: "accueil"
+    name: "Engagement patient"
     weight: 3
 ---
 

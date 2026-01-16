@@ -1,10 +1,11 @@
 ---
-title: "Notre histoire"
 menu:
   main:
-    parent: "Accueil"
+    parent: "accueil"
+    name: "Notre histoire"
     weight: 4
 ---
+
 
 ## Notre histoire
 

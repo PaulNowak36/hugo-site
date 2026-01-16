@@ -1,8 +1,8 @@
 ---
-title: "Domaines d'expertise"
 menu:
   main:
-    parent: "Accueil"
+    parent: "accueil"
+    name: "Domaines d'expertise"
     weight: 2
 ---
 

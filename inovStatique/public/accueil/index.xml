@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Accueil Groupe INOV on Blowfish</title>
+    <title>Accueils on Blowfish</title>
     <link>http://localhost:1313/hugo-site/accueil/</link>
-    <description>Recent content in Accueil Groupe INOV on Blowfish</description>
+    <description>Recent content in Accueils on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
     <atom:link href="http://localhost:1313/hugo-site/accueil/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Chiffres clés du Groupe INOV</title>
+      <title></title>
       <link>http://localhost:1313/hugo-site/accueil/chiffres/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -20,7 +20,7 @@
     </item>
     
     <item>
-      <title>Domaines d&#39;expertise</title>
+      <title></title>
       <link>http://localhost:1313/hugo-site/accueil/domaines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -30,7 +30,7 @@
     </item>
     
     <item>
-      <title>Engagement patient</title>
+      <title></title>
       <link>http://localhost:1313/hugo-site/accueil/engagement/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -40,21 +40,21 @@
     </item>
     
     <item>
-      <title>Mission, vision et zones d’intervention</title>
-      <link>http://localhost:1313/hugo-site/accueil/missions/</link>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/accueil/histoire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-site/accueil/missions/</guid>
+      <guid>http://localhost:1313/hugo-site/accueil/histoire/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Notre histoire</title>
-      <link>http://localhost:1313/hugo-site/accueil/histoire/</link>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/accueil/missions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-site/accueil/histoire/</guid>
+      <guid>http://localhost:1313/hugo-site/accueil/missions/</guid>
       <description></description>
       
     </item>

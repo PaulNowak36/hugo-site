@@ -1,8 +1,8 @@
 ---
-title: "Mission, vision et zones d’intervention"
 menu:
   main:
-    parent: "Accueil"
+    parent: "accueil"
+    name: "Mission, vision et zones d’intervention"
     weight: 5
 ---
 
