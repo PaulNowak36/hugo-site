@@ -61,6 +61,46 @@
     
     <item>
       <title></title>
+      <link>http://localhost:1313/hugo-site/equipe/conseil-consultatif/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/equipe/conseil-consultatif/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/equipe/fondateurs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/equipe/fondateurs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/equipe/gestion-operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/equipe/gestion-operations/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/equipe/medecins-seniors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/equipe/medecins-seniors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/hugo-site/services/conseil-operationel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -115,16 +155,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/hugo-site/contact/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Équipe</title>
-      <link>http://localhost:1313/hugo-site/equipe/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/hugo-site/equipe/</guid>
       <description></description>
       
     </item>

@@ -33,6 +33,31 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/hugo-site/equipe/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/equipe/conseil-consultatif/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/equipe/fondateurs/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/equipe/gestion-operations/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/equipe/medecins-seniors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/hugo-site/services/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -69,11 +94,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/hugo-site/contact/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hugo-site/equipe/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
