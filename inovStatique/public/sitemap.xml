@@ -58,6 +58,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/hugo-site/projets/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/projets/autres-projets/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/projets/centres-france/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/projets/maison-sant%C3%A9/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/hugo-site/services/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -104,11 +124,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/hugo-site/my-preact-page/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hugo-site/projets/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

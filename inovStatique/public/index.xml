@@ -101,6 +101,36 @@
     
     <item>
       <title></title>
+      <link>http://localhost:1313/hugo-site/projets/autres-projets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/projets/autres-projets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/projets/centres-france/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/projets/centres-france/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/hugo-site/projets/maison-sant%C3%A9/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/projets/maison-sant%C3%A9/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://localhost:1313/hugo-site/services/conseil-operationel/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -175,16 +205,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/hugo-site/my-preact-page/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Projets &amp; Etudes de cas</title>
-      <link>http://localhost:1313/hugo-site/projets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/hugo-site/projets/</guid>
       <description></description>
       
     </item>
