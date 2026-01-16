@@ -8,12 +8,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/hugo-site/contact/</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/hugo-site/equipe/</loc>
+    <loc>http://localhost:1313/hugo-site/accueil/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -23,7 +18,47 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/hugo-site/accueil/chiffres/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/contact/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/accueil/domaines/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/accueil/engagement/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/equipe/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/hugo-site/test/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/accueil/missions/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/accueil/histoire/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/hugo-site/my-preact-page/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -1,0 +1,26 @@
+{{ define "main" }}
+<main class="container mx-auto py-8">
+  <h1>{{ .Title }}</h1>
+
+  <!-- Conteneur où Preact va monter -->
+  <div id="preact-root"></div>
+
+  <!-- Installation + utilisation de Preact -->
+  <script type="module">
+    import { h, render } from "https://esm.sh/preact";
+
+    // Composant React-like
+    const Hello = (props) =>
+      h("div", { style: "padding: 1rem; border: 1px solid #ccc;" },
+        h("h2", null, "Bonjour depuis Preact !"),
+        h("p", null, props.message)
+      );
+
+    // Montage
+    render(
+      h(Hello, { message: "Intégré dans Hugo + Blowfish" }),
+      document.getElementById("preact-root")
+    );
+  </script>
+</main>
+{{ end }}

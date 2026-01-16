@@ -19,3 +19,30 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+/* Corriger la hiérarchie des titres dans Blowfish */
+.prose h2 {
+  font-size: 2rem !important;      /* 32px */
+  font-weight: 700 !important;
+}
+
+.prose h3 {
+  font-size: 1.5rem !important;    /* 24px */
+  font-weight: 600 !important;
+}
+
+/* Agrandir les paragraphes */
+.prose p, li {
+  font-size: 1.25rem !important;      /* 19.2px */
+  line-height: 1.75 !important;
+  color: rgba(var(--color-neutral-500), 1);
+}
+
+/* Agrandir les légendes des images */
+.prose figcaption {
+  font-size: 1.05rem !important;     /* 16.8px */
+  line-height: 1.5 !important;
+  color: #444 !important;
+  text-align: center !important;
+  margin-top: 0.5rem !important;
+}

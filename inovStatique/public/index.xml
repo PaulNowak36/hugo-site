@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Groupe INOV on Blowfish</title>
+    <title>Blowfish</title>
     <link>http://localhost:1313/hugo-site/</link>
-    <description>Recent content in Groupe INOV on Blowfish</description>
+    <description>Recent content on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2026 </copyright>
@@ -20,11 +20,41 @@
     </item>
     
     <item>
+      <title>Chiffres clés du Groupe INOV</title>
+      <link>http://localhost:1313/hugo-site/accueil/chiffres/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/accueil/chiffres/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Contact &amp; Partenariats</title>
       <link>http://localhost:1313/hugo-site/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/hugo-site/contact/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Domaines d&#39;expertise</title>
+      <link>http://localhost:1313/hugo-site/accueil/domaines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/accueil/domaines/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Engagement patient</title>
+      <link>http://localhost:1313/hugo-site/accueil/engagement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/accueil/engagement/</guid>
       <description></description>
       
     </item>
@@ -45,6 +75,36 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/hugo-site/test/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mission, vision et zones d’intervention</title>
+      <link>http://localhost:1313/hugo-site/accueil/missions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/accueil/missions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Notre histoire</title>
+      <link>http://localhost:1313/hugo-site/accueil/histoire/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/accueil/histoire/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Page Preact</title>
+      <link>http://localhost:1313/hugo-site/my-preact-page/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/hugo-site/my-preact-page/</guid>
       <description></description>
       
     </item>
