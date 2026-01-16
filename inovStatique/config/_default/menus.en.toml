@@ -20,6 +20,7 @@
 [[main]]
   name = "Services"
   pageRef = "services"
+  identifier = "services"
   weight = 20
 
 [[main]]
