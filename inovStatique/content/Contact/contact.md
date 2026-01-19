@@ -42,3 +42,10 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
 > *Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.*
 
 ---
+
+{{< contact-modular-forms >}}
+
+<script>
+  console.log("Test script simple OK");
+</script>
+

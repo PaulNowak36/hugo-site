@@ -88,8 +88,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/hugo-site/css/main.bundle.min.e5768693e244475fd82812318a9795b188d0dd83b02cfc5bbbdd43e317faeb577a2b85a1afd7aa3ef053fd6312ec1e42d16bdbd1d4dc1876c35b757f7156a1a8.css"
-    integrity="sha512-5XaGk&#43;JER1/YKBIxipeVsYjQ3YOwLPxbu91D4xf661d6K4Whr9eqPvBT/WMS7B5C0Wvb0dTcGHbDW3V/cVahqA==">
+    href="/hugo-site/css/main.bundle.min.5e5945031b80583910237e58b8db9cdaf1c3afe7a7183e37d74f98975f150fe0a634ad9eeb869fd9f91c431bfef4817df4f370aa5fb17395024bf28665653b65.css"
+    integrity="sha512-XllFAxuAWDkQI35YuNuc2vHDr&#43;enGD4310&#43;Yl18VD&#43;CmNK2e64af2fkcQxv&#43;9IF99PNwql&#43;xc5UCS/KGZWU7ZQ==">
 
   
   
@@ -1361,6 +1361,117 @@
 <p><em>Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.</em></p>
 </blockquote>
 <hr>
+<div class="not-prose">
+  <div class="w-full flex justify-center mt-12">
+    <div id="preact-contact-root" class="w-full max-w-md"></div>
+  </div>
+</div>
+
+<script type="module">
+  console.log("SCRIPT Preact chargé !");
+
+  import { h, render } from "https://esm.sh/preact";
+  import { useForm } from "https://esm.sh/@modular-forms/preact";
+
+  const Label = (text, required = false) =>
+  h(
+    "label",
+    { class: "contact-label" },
+    [
+      text,
+      required &&
+        h("span", { class: "contact-label-required" }, "*")
+    ]
+  );
+
+  const Input = ({ value, setValue, type = "text" }) =>
+    h("input", {
+      type,
+      value,
+      onInput: (e) => setValue(e.target.value),
+      class:
+        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
+        "shadow-sm transition " +
+        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
+        "hover:border-gray-400"
+    });
+
+  const Textarea = ({ value, setValue }) =>
+    h("textarea", {
+      rows: 5,
+      value,
+      onInput: (e) => setValue(e.target.value),
+      class:
+        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
+        "shadow-sm transition " +
+        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
+        "hover:border-gray-400"
+    });
+
+  const Button = (text) =>
+  h(
+    "button",
+    {
+      type: "submit",
+      class: "contact-button",
+    },
+    text
+  );
+
+  const ContactForm = () => {
+    const [form, { Form, Field }] = useForm({
+      initialValues: {
+        firstname: "",
+        lastname: "",
+        message: "",
+      },
+    });
+
+    const handleSubmit = (values) => {
+      alert("Formulaire envoyé !\n" + JSON.stringify(values, null, 2));
+    };
+
+    return h(
+      Form,
+      {
+        onSubmit: handleSubmit,
+        class:
+          "contact-form shadow-xl rounded-xl p-8 space-y-6",
+      },
+      [
+        h("h2", { class: "text-2xl font-semibold text-gray-800 mb-4" }, "Nous contacter"),
+
+        h(Field, { name: "firstname" }, ({ value, setValue }) =>
+          h("div", { class: "space-y-1" }, [
+            Label("Prénom", true),
+            Input({ value, setValue }),
+          ])
+        ),
+
+        h(Field, { name: "lastname" }, ({ value, setValue }) =>
+          h("div", { class: "space-y-1" }, [
+            Label("Nom", true),
+            Input({ value, setValue }),
+          ])
+        ),
+
+        h(Field, { name: "message" }, ({ value, setValue }) =>
+            h("div", { class: "space-y-1" }, [
+                Label("Message", false),   
+                Textarea({ value, setValue }),
+            ])
+        ),
+
+        Button("Envoyer"),
+      ]
+    );
+  };
+
+  render(h(ContactForm), document.getElementById("preact-contact-root"));
+</script>
+<script>
+  console.log("Test script simple OK");
+</script>
 
           
           

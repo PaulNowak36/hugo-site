@@ -1,3 +1,5 @@
+@import "./contact.css";
+
 /* Élargir les zones de contenu Blowfish */
 .prose,
 .container,
@@ -52,4 +54,58 @@
   top: 0;
   z-index: 1000;
   background-color: white;
+}
+
+.contact-form {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.contact-button {
+  width: 100%;
+  background-color: #2563eb; /* bleu */
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 150ms ease, transform 150ms ease;
+}
+
+.contact-button:hover {
+  background-color: #1d4ed8; /* bleu plus foncé */
+}
+
+.contact-button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+
+/* Taille du label */
+.contact-label {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.125rem; /* text-lg */
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .contact-label {
+    font-size: 1.25rem; /* text-xl */
+    margin-bottom: 1.25rem;
+  }
+}
+
+/* Astérisque rouge */
+.contact-label-required {
+  margin-left: 0.25rem;
+  color: #dc2626; /* red-600 */
+}
+
+@media (prefers-color-scheme: dark) {
+  .contact-label-required {
+    color: #f87171; /* red-400 */
+  }
 }

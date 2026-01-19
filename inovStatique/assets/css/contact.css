@@ -1,0 +1,21 @@
+.contact-button {
+  width: 100%;
+  background-color: #2563eb; /* bleu */
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 150ms ease, transform 150ms ease;
+}
+
+.contact-button:hover {
+  background-color: #1d4ed8; /* bleu plus foncé */
+}
+
+.contact-button:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}

@@ -10,7 +10,8 @@ defaultAppearance = "light"
 autoSwitchAppearance = false
 disableThemeToggle = true
 
-customCSS = ["css/custom.css"]
+[params]
+  customCSS = ["css/custom.css"]
 
 enableA11y = false
 enableSearch = true

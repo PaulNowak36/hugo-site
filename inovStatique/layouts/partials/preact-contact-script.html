@@ -1,0 +1,102 @@
+<script type="module">
+  console.log("SCRIPT Preact chargé !");
+
+  import { h, render } from "https://esm.sh/preact";
+  import { useForm } from "https://esm.sh/@modular-forms/preact";
+
+  const Label = (text, required = false) =>
+  h(
+    "label",
+    { class: "contact-label" },
+    [
+      text,
+      required &&
+        h("span", { class: "contact-label-required" }, "*")
+    ]
+  );
+
+  const Input = ({ value, setValue, type = "text" }) =>
+    h("input", {
+      type,
+      value,
+      onInput: (e) => setValue(e.target.value),
+      class:
+        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
+        "shadow-sm transition " +
+        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
+        "hover:border-gray-400"
+    });
+
+  const Textarea = ({ value, setValue }) =>
+    h("textarea", {
+      rows: 5,
+      value,
+      onInput: (e) => setValue(e.target.value),
+      class:
+        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
+        "shadow-sm transition " +
+        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
+        "hover:border-gray-400"
+    });
+
+  const Button = (text) =>
+  h(
+    "button",
+    {
+      type: "submit",
+      class: "contact-button",
+    },
+    text
+  );
+
+  const ContactForm = () => {
+    const [form, { Form, Field }] = useForm({
+      initialValues: {
+        firstname: "",
+        lastname: "",
+        message: "",
+      },
+    });
+
+    const handleSubmit = (values) => {
+      alert("Formulaire envoyé !\n" + JSON.stringify(values, null, 2));
+    };
+
+    return h(
+      Form,
+      {
+        onSubmit: handleSubmit,
+        class:
+          "contact-form shadow-xl rounded-xl p-8 space-y-6",
+      },
+      [
+        h("h2", { class: "text-2xl font-semibold text-gray-800 mb-4" }, "Nous contacter"),
+
+        h(Field, { name: "firstname" }, ({ value, setValue }) =>
+          h("div", { class: "space-y-1" }, [
+            Label("Prénom", true),
+            Input({ value, setValue }),
+          ])
+        ),
+
+        h(Field, { name: "lastname" }, ({ value, setValue }) =>
+          h("div", { class: "space-y-1" }, [
+            Label("Nom", true),
+            Input({ value, setValue }),
+          ])
+        ),
+
+        h(Field, { name: "message" }, ({ value, setValue }) =>
+            h("div", { class: "space-y-1" }, [
+                Label("Message", false),   // ⬅️ pas d’astérisque
+                Textarea({ value, setValue }),
+            ])
+        ),
+
+        Button("Envoyer"),
+      ]
+    );
+  };
+
+  render(h(ContactForm), document.getElementById("preact-contact-root"));
+</script>
