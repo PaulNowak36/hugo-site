@@ -215,7 +215,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "28"
+    "wordCount": "84"
   }]
   </script>
 
@@ -1300,6 +1300,47 @@
 </h1>
 <p>Cette section est dédiée aux échanges, aux collaborations et aux demandes d’accompagnement pour vos projets en médecine nucléaire et en organisation de centres de soins.</p>
 <hr>
+<hr>
+<p>layout: page
+type: page
+description: &ldquo;Expertise en médecine nucléaire, développement de centres et accompagnement opérationnel.&rdquo;
+showList: false
+menu:
+main:
+identifier: &ldquo;accueil&rdquo;
+weight: 1</p>
+<hr>
+
+<h1 class="relative group">Contact et Partenariats
+    <div id="contact-et-partenariats-1" class="anchor"></div>
+    
+</h1>
+<p>Cette section est dédiée aux échanges, aux collaborations et aux demandes d’accompagnement pour vos projets en médecine nucléaire et en organisation de centres de soins.</p>
+<hr>
+
+<div style="padding: 1rem; border: 1px solid red;">
+  SHORTCODE OK —  TEST SHORTCODE 
+</div>
+
+
+<div id="preact-root"></div>
+
+<script type="module">
+  import { h, render } from "https://esm.sh/preact";
+
+  const Hello = (props) =>
+    h(
+      "div",
+      { class: "p-4 border border-gray-300 rounded" },
+      h("h2", { class: "text-xl font-semibold mb-2" }, "Bonjour depuis Preact !"),
+      h("p", null, props.message)
+    );
+
+  render(
+    h(Hello, { message: "Intégré dans Hugo + Blowfish" }),
+    document.getElementById("preact-root")
+  );
+</script>
 
     </div>
   </section>

@@ -1,0 +1,24 @@
+<!-- Test visuel pour vérifier que le shortcode fonctionne -->
+<div style="padding: 1rem; border: 1px solid red;">
+  SHORTCODE OK — {{ .Inner }}
+</div>
+
+<!-- Conteneur où Preact va monter -->
+<div id="preact-root"></div>
+
+<script type="module">
+  import { h, render } from "https://esm.sh/preact";
+
+  const Hello = (props) =>
+    h(
+      "div",
+      { class: "p-4 border border-gray-300 rounded" },
+      h("h2", { class: "text-xl font-semibold mb-2" }, "Bonjour depuis Preact !"),
+      h("p", null, props.message)
+    );
+
+  render(
+    h(Hello, { message: "Intégré dans Hugo + Blowfish" }),
+    document.getElementById("preact-root")
+  );
+</script>
