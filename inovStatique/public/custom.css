@@ -61,7 +61,7 @@
   box-shadow: none !important;
 }
 
-.contact-button {
+/* .contact-button {
   width: 100%;
   background-color: #2563eb; 
   color: #ffffff;
@@ -81,7 +81,7 @@
 .contact-button:focus {
   outline: 2px solid #2563eb;
   outline-offset: 2px;
-}
+} */
 
 /* Taille du label */
 .contact-label {

@@ -21,4 +21,4 @@ Le Groupe **INOV** développe et opère des centres de médecine nucléaire mode
 
 ---
 
-{{< preact >}}  {{< /preact >}}
+{{< material-button >}} 

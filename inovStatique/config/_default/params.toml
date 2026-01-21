@@ -11,7 +11,13 @@ autoSwitchAppearance = false
 disableThemeToggle = true
 
 [params]
-  customCSS = ["css/custom.css"]
+
+customCSS = [
+  "css/main.css",
+  "css/contact.css"
+]
+
+
 
 enableA11y = false
 enableSearch = true
@@ -48,7 +54,7 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
   showTitle = false
 
 [footer]
-  showMenu = true
+  showMenu = false
   showCopyright = true
   showThemeAttribution = true
   showAppearanceSwitcher = false

@@ -1,0 +1,9 @@
+<script type="module">
+  import { h, render } from "https://esm.sh/preact";
+  import { MaterialButton } from "/js/materialButton.js";
+
+  render(
+    h(MaterialButton, { text: "Click me", primary: true }),
+    document.getElementById("material-button-root")
+  );
+</script>

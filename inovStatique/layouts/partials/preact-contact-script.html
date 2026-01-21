@@ -17,27 +17,19 @@
 
   const Input = ({ value, setValue, type = "text" }) =>
     h("input", {
-      type,
-      value,
-      onInput: (e) => setValue(e.target.value),
-      class:
-        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
-        "shadow-sm transition " +
-        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
-        "hover:border-gray-400"
-    });
+        type,
+        value,
+        onInput: (e) => setValue(e.target.value),
+        class: "contact-input",
+  });
 
   const Textarea = ({ value, setValue }) =>
     h("textarea", {
-      rows: 5,
-      value,
-      onInput: (e) => setValue(e.target.value),
-      class:
-        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
-        "shadow-sm transition " +
-        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
-        "hover:border-gray-400"
-    });
+        rows: 5,
+        value,
+        onInput: (e) => setValue(e.target.value),
+        class: "contact-input",
+  });
 
   const Button = (text) =>
   h(
@@ -70,7 +62,7 @@
           "contact-form shadow-xl rounded-xl p-8 space-y-6",
       },
       [
-        h("h2", { class: "text-2xl font-semibold text-gray-800 mb-4" }, "Nous contacter"),
+        h("h3", { class: "contact-title" }, "Formulaire"),
 
         h(Field, { name: "firstname" }, ({ value, setValue }) =>
           h("div", { class: "space-y-1" }, [

@@ -4,6 +4,7 @@ menu:
     parent: "contact"
     name: "Nous contacter"
     weight: 1
+css: ["css/contact.css"]
   
 ---
 
@@ -14,7 +15,7 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
 **Téléphone :** +33 2 48 23 99 60  
 **Email :** inov.rdv@gmail.com
 
-### Formulaire de contact
+<!-- ### Formulaire de contact
 
 <form method="POST" action="https://formspree.io/f/your-form-id" style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px;">
 
@@ -37,15 +38,10 @@ Pour toute demande professionnelle, partenariat ou projet international, vous po
     Envoyer
   </button>
 
-</form>
+</form> -->
 
-> *Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.*
-
----
+> 
 
 {{< contact-modular-forms >}}
 
-<script>
-  console.log("Test script simple OK");
-</script>
-
+*Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.*

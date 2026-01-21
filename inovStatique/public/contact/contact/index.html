@@ -88,8 +88,8 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="/hugo-site/css/main.bundle.min.5e5945031b80583910237e58b8db9cdaf1c3afe7a7183e37d74f98975f150fe0a634ad9eeb869fd9f91c431bfef4817df4f370aa5fb17395024bf28665653b65.css"
-    integrity="sha512-XllFAxuAWDkQI35YuNuc2vHDr&#43;enGD4310&#43;Yl18VD&#43;CmNK2e64af2fkcQxv&#43;9IF99PNwql&#43;xc5UCS/KGZWU7ZQ==">
+    href="/hugo-site/css/main.bundle.min.f6898a02ef8982ec52fd7be290ffef681e0a0136de79e77e4ca7a52804e722c8ec6811a40b2cb58c8f3ab35e29934584f5da5b72f26ea4351744f964ba5e600c.css"
+    integrity="sha512-9omKAu&#43;JguxS/XvikP/vaB4KATbeeed&#43;TKelKATnIsjsaBGkCyy1jI86s14pk0WE9dpbcvJupDUXRPlkul5gDA==">
 
   
   
@@ -209,7 +209,7 @@
     
     
     "mainEntityOfPage": "true",
-    "wordCount": "52"
+    "wordCount": "42"
   }]
   </script>
 
@@ -1335,32 +1335,32 @@
 <p><strong>Téléphone :</strong> +33 2 48 23 99 60<br>
 <strong>Email :</strong> <a
   href="mailto:inov.rdv@gmail.com">inov.rdv@gmail.com</a></p>
+<!-- ### Formulaire de contact
 
-<h3 class="relative group">Formulaire de contact
-    <div id="formulaire-de-contact" class="anchor"></div>
-    
-</h3>
 <form method="POST" action="https://formspree.io/f/your-form-id" style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px;">
+
   <label>
     Nom :
     <input type="text" name="name" required style="width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid #ccc;">
   </label>
+
   <label>
     Email :
     <input type="email" name="email" required style="width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid #ccc;">
   </label>
+
   <label>
     Message :
     <textarea name="message" rows="5" required style="width: 100%; padding: 0.5rem; border-radius: 6px; border: 1px solid #ccc;"></textarea>
   </label>
+
   <button type="submit" style="padding: 0.75rem; background: #005bbb; color: white; border: none; border-radius: 6px; cursor: pointer;">
     Envoyer
   </button>
-</form>
+
+</form> -->
 <blockquote>
-<p><em>Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.</em></p>
 </blockquote>
-<hr>
 <div class="not-prose">
   <div class="w-full flex justify-center mt-12">
     <div id="preact-contact-root" class="w-full max-w-md"></div>
@@ -1386,27 +1386,19 @@
 
   const Input = ({ value, setValue, type = "text" }) =>
     h("input", {
-      type,
-      value,
-      onInput: (e) => setValue(e.target.value),
-      class:
-        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
-        "shadow-sm transition " +
-        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
-        "hover:border-gray-400"
-    });
+        type,
+        value,
+        onInput: (e) => setValue(e.target.value),
+        class: "contact-input",
+  });
 
   const Textarea = ({ value, setValue }) =>
     h("textarea", {
-      rows: 5,
-      value,
-      onInput: (e) => setValue(e.target.value),
-      class:
-        "w-full border border-gray-300 rounded-lg px-3 py-2 text-base " +
-        "shadow-sm transition " +
-        "focus:ring-2 focus:ring-blue-500 focus:border-blue-500 " +
-        "hover:border-gray-400"
-    });
+        rows: 5,
+        value,
+        onInput: (e) => setValue(e.target.value),
+        class: "contact-input",
+  });
 
   const Button = (text) =>
   h(
@@ -1439,7 +1431,7 @@
           "contact-form shadow-xl rounded-xl p-8 space-y-6",
       },
       [
-        h("h2", { class: "text-2xl font-semibold text-gray-800 mb-4" }, "Nous contacter"),
+        h("h3", { class: "contact-title" }, "Formulaire"),
 
         h(Field, { name: "firstname" }, ({ value, setValue }) =>
           h("div", { class: "space-y-1" }, [
@@ -1469,9 +1461,7 @@
 
   render(h(ContactForm), document.getElementById("preact-contact-root"));
 </script>
-<script>
-  console.log("Test script simple OK");
-</script>
+<p><em>Remarque : vous pouvez remplacer l’URL Formspree par n’importe quel service de réception de formulaires.</em></p>
 
           
           
@@ -1536,52 +1526,6 @@
 
       </main><footer id="site-footer" class="py-10 print:hidden">
   
-  
-    
-      
-      
-        
-          
-          
-      
-      
-      
-      <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400 ">
-        <ul class="flex list-none flex-col sm:flex-row">
-          
-            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
-              <a
-                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/hugo-site/services/"
-                title="">
-                
-                Services
-              </a>
-            </li>
-          
-            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
-              <a
-                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/hugo-site/equipe/"
-                title="">
-                
-                Équipe
-              </a>
-            </li>
-          
-            <li class=" flex mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0 ">
-              <a
-                class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center"
-                href="/hugo-site/projets/"
-                title="">
-                
-                Projets
-              </a>
-            </li>
-          
-        </ul>
-      </nav>
-    
   
   <div class="flex items-center justify-between">
     
