@@ -1367,11 +1367,24 @@
   </div>
 </div>
 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="importmap">
+  {
+    "imports": {
+      "@material/web/": "https://esm.run/@material/web/"
+    }
+  }
+</script>
+
 <script type="module">
   console.log("SCRIPT Preact chargé !");
 
   import { h, render } from "https://esm.sh/preact";
   import { useForm } from "https://esm.sh/@modular-forms/preact";
+  import '@material/web/all.js';
+  import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+  document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
 
   const Label = (text, required = false) =>
   h(
@@ -1383,6 +1396,18 @@
         h("span", { class: "contact-label-required" }, "*")
     ]
   );
+
+  const TEST = (text, required = false) =>h(
+    "div",
+    { class: "test" },
+    text
+  );
+  const ButtonTest = (text) =>h(
+    "md-outlined-button",
+    { class: "buttonTest" },
+    text
+  );
+
 
   const Input = ({ value, setValue, type = "text" }) =>
     h("input", {
@@ -1455,6 +1480,10 @@
         ),
 
         Button("Envoyer"),
+
+        ButtonTest("Nos domaines d'expertise"),
+
+        
       ]
     );
   };

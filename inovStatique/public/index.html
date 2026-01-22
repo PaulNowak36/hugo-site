@@ -1257,18 +1257,53 @@
 <hr>
 <div class="not-prose">
   <div class="w-full flex justify-center mt-12">
-    <div id="material-button-root" class="w-full max-w-md"></div>
+    <div id="preact-button-material-root" class="w-full max-w-md p-12"></div>
   </div>
 </div>
 
-<script type="module">
-  import { h, render } from "https://esm.sh/preact";
-  import { MaterialButton } from "/js/materialButton.js";
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="importmap">
+  {
+    "imports": {
+      "@material/web/": "https://esm.run/@material/web/"
+    }
+  }
+</script>
 
-  render(
-    h(MaterialButton, { text: "Click me", primary: true }),
-    document.getElementById("material-button-root")
+<style>
+:root {
+  --md-elevated-button-container-shape: 10px;
+  --md-elevated-button-container-height: 50px;
+  --md-elevated-button-label-text-font: Arial Black;
+  --md-sys-color-surface-container-low: #62c3e0;
+  --md-sys-color-primary: #090d0d;
+  --md-elevated-button-label-text-size: 1rem;
+
+}
+
+</style>
+
+<script type="module">
+  console.log("SCRIPT Preact chargé !");
+
+  import { h, render } from "https://esm.sh/preact";
+  import { useForm } from "https://esm.sh/@modular-forms/preact";
+  import '@material/web/all.js';
+  import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+
+  document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+
+  const handleClick = (page) => {
+    window.location.href = page;
+  };
+
+  const ButtonTest = (text) =>h(
+    "md-elevated-button", { onClick: () => handleClick("/hugo-site/Accueil/domaines") },
+    { class: "buttonTest p-20" },
+    text
   );
+
+  render(ButtonTest("Nos domaines d'expertise"), document.getElementById("preact-button-material-root"));
 </script>
 </section>
 </article>

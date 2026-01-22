@@ -1,9 +1,46 @@
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="importmap">
+  {
+    "imports": {
+      "@material/web/": "https://esm.run/@material/web/"
+    }
+  }
+</script>
+
+
 <script type="module">
   import { h, render } from "https://esm.sh/preact";
   import { MaterialButton } from "/js/materialButton.js";
+  import '@material/web/all.js';
+  import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
 
-  render(
-    h(MaterialButton, { text: "Click me", primary: true }),
-    document.getElementById("material-button-root")
-  );
+  //const bigButton = () => {
+    /*  const ButtonTest = (text) =>h(
+      "md-outlined-button",
+      { class: "buttonTest" },
+      text
+    );  */
+
+    //const ButtonTest = ({ text }) =>
+      //h("md-outlined-button", { class: "buttonTest" }, text);
+
+    //return h(ButtonTest, { text: "Nos domaines d'expertise" })
+  
+  
+  //}
+
+  
+
+  /*return h(
+    ButtonTest("Nos domaines d'expertise"),
+  );*/
+  //render(h(bigButton()), document.getElementById("material-button-root"));
+
+  const ButtonTest = ({ text }) =>
+  h("md-outlined-button", { class: "buttonTest" }, text);
+
+  const BigButton = () =>
+    h(ButtonTest, { text: "Nos domaines d'expertise" });
+
+  render(h(BigButton), document.getElementById("material-button-root"));
 </script>
